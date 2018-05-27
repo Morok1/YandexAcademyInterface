@@ -1,0 +1,20 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+h1 span {
+    font: italic normal 0.5em 'EB Garamond', serif;
+}
+h1 dfn {
+    font-style: normal;
+    font-variant: small-caps;
+}
+p {
+    line-height: 2;
+}
