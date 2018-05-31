@@ -1,0 +1,211 @@
+/* gujarati */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Farsan Regular'), local('Farsan-Regular'), url(./fonts/VEMwRoJ0vY_zsyzKxqWo9DU.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Farsan Regular'), local('Farsan-Regular'), url(./fonts/VEMwRoJ0vY_zsyzK0qWo9DU.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Farsan Regular'), local('Farsan-Regular'), url(./fonts/VEMwRoJ0vY_zsyzK06Wo9DU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Farsan Regular'), local('Farsan-Regular'), url(./fonts/VEMwRoJ0vY_zsyzK3aWo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* bengali */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(./fonts/ijwTs5juQtsyLLR5jN4cxBEoTI7ax9k0.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(./fonts/ijwTs5juQtsyLLR5jN4cxBEoTJLax9k0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(./fonts/hindsiliguri/v4/ijwTs5juQtsyLLR5jN4cxBEoTJzaxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Racing Sans One'), local('RacingSansOne-Regular'), url(./fonts/sykr-yRtm7EvTrXNxkv5jfKKyDCAJnDnapI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Racing Sans One'), local('RacingSansOne-Regular'), url(./fonts/sykr-yRtm7EvTrXNxkv5jfKKyDCAKHDn.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Six Caps'), local('SixCaps'), url(./fonts/6ae_4KGrU7VR7bNmaYcV_3Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(./fonts/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(./fonts/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(./fonts/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'UnifrakturMaguntia';
+    font-style: normal;
+    font-weight: 400;
+    src: local('UnifrakturMaguntia'), url(./fonts/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    font-size: 1em;
+}
+.header__info {
+    text-align: center;
+}
+.header__weather-title {
+    font-family: 'Space Mono', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.17em;
+    text-align: center;
+}
+.header__weather-text {
+    text-align: justify;
+    font-size: .8em;
+    line-height: 1.1em;
+}
+.header__title {
+    font-family: 'UnifrakturMaguntia', 'Comic Sans MS', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+.sub-header__copyright {
+    font-size: .6em;
+}
+.article__title {
+    font-family: 'Six Caps', Arial, sans-serif;
+    font-size: 3.2em;
+    font-weight: 700;
+}
+.article__subtitle {
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    font-size: 1.17em;
+    font-weight: 700;
+    text-align: center;
+}
+.article__author {
+    font-size: .8em;
+    font-weight: 700;
+    text-align: center;
+}
+.article__content p {
+    text-indent: 2ch;
+    text-align: justify;
+    font-size: .8em;
+}
+.main-photo__desc {
+    font-size: .8em;
+}
+.article__title.article__title_font_racing {
+    font-family: 'Racing Sans One', 'Comic Sans MS', cursive;
+    font-size: 2em;
+    font-weight: 700;
+}
+.article__continue {
+    font-size: .8em;
+    font-style: italic;
+    text-align: center;
+}
+.article__image-caption {
+    font-size: .8em;
+    text-decoration: underline;
+}
+.multicolumn .article__content {
+    column-count: 2;
+    column-gap: 15px;
+    column-fill: auto;
+}
+.multicolumn .article__content .article__author,
+.multicolumn .article__content .article__continue {
+    column-span: all
+}
+.article__title.article__title_font_farsan {
+    font-family: 'Farsan', 'Comic Sans MS', cursive;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+.main-photo__caption {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: .7em;
+}
+.article__add-text {
+    text-align: justify;
+    text-indent: 2ch;
+    font-size: .8em;
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
