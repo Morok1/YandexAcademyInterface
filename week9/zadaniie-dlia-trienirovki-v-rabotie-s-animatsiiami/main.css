@@ -1,0 +1,23 @@
+.animation {
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    /* transform: translateX(100px) translateY(100%) scale(2) rotate(145deg); */
+    transition: background-color .5s linear;
+    animation: anim 3s linear infinite alternate;
+}
+.animation:hover {
+    background-color: #ff0;
+}
+
+@keyframes anim {
+    25% {
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateX(100px) translateY(100%);
+    }
+    80%, 100% {
+        transform: translateX(100px) translateY(100%) scale(2) rotate(145deg);
+    }
+}
