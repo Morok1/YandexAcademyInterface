@@ -1,0 +1,127 @@
+.cloud-1 {
+    animation: cloud-1 70s linear infinite;
+}
+.cloud-2 {
+
+    animation: cloud-2 40s linear infinite;
+}
+.cloud-3 {
+    animation: cloud-3 30s linear infinite;
+}
+.cloud-4 {
+    animation: cloud-4 20s linear infinite;
+}
+.sun-wrapper {
+    animation: sun-way 100s linear infinite both;
+}
+.sun {
+    animation: sun 20s linear infinite;
+}
+.ship {
+    animation: ship 100s linear infinite;
+}
+.smoke div {
+    animation: smoke 3s ease-out infinite;
+}
+.smoke .smoke-1 {
+    animation-delay: 1s;
+}
+.smoke .smoke-3 {
+    animation-delay: 1.5s;
+}
+.box_front {
+    animation: box_front 100s linear infinite;
+}
+@keyframes box_front {
+    0% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+    25% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+    50% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px orangered inset;
+    }
+    75% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px transparent inset;
+    }
+    80% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px transparent inset;
+    }
+}
+@keyframes smoke {
+    0% {
+        opacity: 0;
+        transform: scale(1) translateY(0);
+    }
+    50% {
+        opacity: .8;
+        transform: scale(1.8) translateY(-120%);
+    }
+    100% {
+        transform: scale(2.8) translateY(-160%);
+        opacity: 0;
+    }
+}
+@keyframes ship {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-500%);
+    }
+}
+@keyframes sun {
+    to {
+        transform: rotate(1turn);
+    }
+}
+@keyframes sun-way {
+    0% {
+        transform: rotate(-80deg);
+    }
+    100% {
+        transform: rotate(280deg);
+    }
+}
+@keyframes cloud-1 {
+    0% {
+        transform: translateY(-620%) translateZ(-1800px) scale(-1, 1) translateX(300%);
+    }
+    100% {
+        transform: translateY(-620%) translateZ(-1800px) scale(-1, 1) translateX(-630%);
+    }
+}
+@keyframes cloud-2 {
+    0%, 100% {
+        transform: scale(-.5) translateX(700%);
+    }
+    0.001% {
+        transform: scale(-.5) translateX(0%);
+    }
+}
+@keyframes cloud-3 {
+    0% {
+        transform: translateY(-20%) translateZ(-280px) scale(-1, 1) translateX(60%);
+    }
+    100% {
+        transform: translateY(-20%) translateZ(-280px) scale(-1, 1) translateX(-390%);
+    }
+}
+@keyframes cloud-4 {
+    0%, 100% {
+        transform: scale(.9) translateX(50%);
+    }
+    90% {
+        transform: scale(.9) translateX(450%);
+    }
+    90.001% {
+        transform: scale(.9) translateX(0%);
+    }
+}
+
