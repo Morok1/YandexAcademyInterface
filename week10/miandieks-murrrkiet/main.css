@@ -1,0 +1,228 @@
+.main-name::first-letter {
+    color: red;
+}
+.radio {
+    display: none;
+}
+.radio + .radio-label{
+    cursor: pointer;
+}
+.radio:checked + .radio-label{
+    color: red;
+    text-decoration: underline;
+}
+.radio[value="card"]:checked ~ .wrapper-cats > .cats {
+    /* border: 1px solid red; */
+}
+.cat {
+    width: 250px;
+    height: 800px;
+    padding: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    float: left;
+}
+.cat-image-box {
+    display: block;
+    height: 350px;
+    line-height: 350px;
+}
+.cat-image-box-inner {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+.cat-infom-box {
+
+}
+.cat-infom-box-name-inner,
+.cat-infom-box-name-inner:visited {
+    color: inherit;
+    font-size: inherit;
+}
+.cat-infom-box-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: blue;
+    font-size: 1.1em;
+}
+.cat-texts-box {
+
+}
+.cat-infom-box-tags-inner {
+    color: grey;
+    font-size: .9em;
+}
+.cat-infom-box-tags-inner:not(:last-child)::after {
+    content: ' - ';
+}
+.star {
+    display: none;
+}
+.cat-infom-box-rati {
+    display: inline-block;
+}
+.cat-infom-box-rati::after,
+main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.star-label {
+    background: url(./photos/star.png);
+    background-size: cover;
+    width: 20px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+}
+.star-label:nth-of-type(2n) {
+    background-position-x: 35%;
+}
+.cat-infom-box-rati:not(:hover) .star:checked ~ .star-label {
+    background-position-x: 67%;
+}
+.cat-infom-box-rati:not(:hover) .star:checked ~ .star-label:nth-of-type(2n) {
+    background-position-x: 100%;
+}
+.cat-infom-box-rati .star-label:hover ~ .star-label {
+    background-position-x: 67% !important;
+}
+.cat-infom-box-rati .star-label:hover ~ .star-label:nth-of-type(2n) {
+    background-position-x: 100% !important;
+}
+.star:checked + .star-label {
+    background-position-x: 0% !important;
+}
+.star:checked + .star-label:nth-of-type(2n) {
+    background-position-x: 35% !important;
+}
+
+.cat-infom-box-cost-inner {
+    color: red;
+    font-size: 1.2em;
+}
+.cat-infom-box-cost-inner + .cat-infom-box-cost-inner {
+    color: inherit;
+    text-decoration: line-through;
+    font-size: 1em;
+}
+.cat-texts-box {
+    font-size: .8em;
+    text-indent: 2ch;
+}
+
+.cat {
+    transition: all .3s linear;
+    border: 1px solid white;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+.cat:hover {
+    border-color: rgba(0,0,0,.1);
+    box-shadow: 0px 0px 0px rgba(0,0,0,.4), 1px 1px 0px rgba(0,0,0,.3), 2px 2px 0px rgba(0,0,0,.2), 3px 3px 0px rgba(0,0,0,.1);
+}
+.cat-image-box-wrapper:hover .cat-image-box-inner {
+    opacity: .7;
+}
+.cat-image-box-wrapper:hover .cat-infom-box-name-inner,
+.cat-image-box-wrapper:hover .cat-infom-box-name {
+    color: red;
+}
+.cat-image-box-inner:hover {
+    
+}
+.cat-image-box:hover ~ .cat-infom-box .cat-infom-box-name {
+    color: red;
+}
+.cat-infom-box-name-inner,
+.cat-infom-box-name {
+    transition: color .3s ease;
+}
+.cat-infom-box-name-inner:hover,
+.cat-infom-box-name:hover {
+    color: red;
+}
+.cat-infom-box-name:hover .cat-infom-box-name-inner:not(:hover) {
+    color: inherit;
+}
+.cat-infom-box-tags-inner:hover {
+    color: inherit;
+}
+.cat-infom-box-tags-inner:hover::after {
+    color: grey;
+}
+
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat {
+    width: auto;
+    height: 250px;
+    margin-right: 0;
+    margin-bottom: 7px;
+    float: none;
+}
+
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-image-box {
+    height: 250px;
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-image-box-wrapper {
+    margin-right: 10px;
+    margin-top: 0;
+    float: left;
+}
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-infom-box-name {
+    width: 350px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 0;
+}
+.cat-infom-box .cat-infom-box-name .cat-infom-box-name-inner {
+    display: none;
+}
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-image-box-wrapper .cat-infom-box-name {
+    display: none;
+}
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-infom-box-name .cat-infom-box-name-inner {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: blue;
+    font-size: 1.1em;
+}
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-image-box-inner {
+    max-width: 100%;
+    vertical-align: top;
+    max-height: 100%;
+}
+
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-infom-box {
+    float: left;
+    height: 150px;
+    margin-right: 15px;
+    width: 350px;;
+}
+
+.radio[value="list"]:checked ~ .wrapper-cats > .cats .cat .cat-infom-box .cat-infom-box-name {
+    margin-top: 0;
+}
+.cat-infom-box-tags {
+    list-style: none;
+    padding: 0;
+}
+
+.cat-infom-box-tags li {
+    display: inline;
+}
+.cat-infom-box-tags li a {
+    cursor: pointer;
+}
+.cat-infom-box-tags li:not(:last-child)::after {
+    content: ' - ';
+}
+.cat-infom-box-name-inner:hover {
+    color: red !important;
+}
