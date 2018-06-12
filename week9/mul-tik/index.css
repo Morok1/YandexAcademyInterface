@@ -8,6 +8,7 @@
     transition: .3s ease;
     
     perspective: 800px;
+    -moz-perspective: 800px;
 }
 
 .box_front {

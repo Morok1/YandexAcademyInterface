@@ -91,18 +91,18 @@
 }
 @keyframes cloud-1 {
     0% {
-        transform: translateY(-620%) translateZ(-1800px) scale(-1, 1) translateX(300%);
+        transform: translateY(-210%) translateZ(-750px) scale(1, 1) translateX(-130%);
     }
     100% {
-        transform: translateY(-620%) translateZ(-1800px) scale(-1, 1) translateX(-630%);
+        transform: translateY(-210%) translateZ(-750px) scale(1, 1) translateX(460%);
     }
 }
 @keyframes cloud-2 {
-    0%, 100% {
-        transform: scale(-.5) translateX(700%);
+    0% {
+        transform: translateY(-120%) translateZ(-480px) scale(-1, 1) translateX(90%);
     }
-    0.001% {
-        transform: scale(-.5) translateX(0%);
+    100% {
+        transform: translateY(-120%) translateZ(-480px) scale(-1, 1) translateX(-420%);
     }
 }
 @keyframes cloud-3 {
