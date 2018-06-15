@@ -1,0 +1,19 @@
+.wrapper {
+    background: #333;
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    padding: 10px 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.image {
+    width: 190px;
+    height: 190px;
+    margin-right: 10px;
+    background: red;
+    float: left;
+}
