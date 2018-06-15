@@ -1,0 +1,22 @@
+body {
+    height: 1000px;
+}
+.btn {
+    color: white;
+    border: none;
+    background: green;
+}
+.hint-element {
+    border: 1px solid green;
+    padding: 10px 10px 20px 10px;
+    width: 150px;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    box-sizing: border-box;
+}
+.hint-element-btn {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+}
