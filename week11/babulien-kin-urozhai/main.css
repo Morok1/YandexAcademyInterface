@@ -17,14 +17,14 @@ body {
     display: none;
     position: absolute;
     height: 200px;
-    width: 30vw;
+    width: 20vw;
     z-index: 1;
     cursor: pointer;
 }
 .wrapper {
     padding: 30px 0;
     margin: 0 auto;
-    max-width: 90vw;
+    max-width: 80vw;
     overflow: hidden;
     margin-top: -280px;
 }
@@ -37,7 +37,7 @@ body {
 }
 .card {
     float: left;
-    width: 30vw;
+    width: 20vw;
     height: 200px;
     box-sizing: border-box;
     margin: 0px;
@@ -47,7 +47,7 @@ body {
 }
 .card-inner-text {
     display: none;
-    width: 30vw;
+    width: 20vw;
     box-sizing: border-box;
     padding: 0 5px;
 }
@@ -78,7 +78,7 @@ body {
 .card:hover .card-inner {
     display: block;
     position: absolute;
-    width: 30vw;
+    width: 20vw;
     height: auto;
     border: 1px solid rgba(120,120,120,.1);
     box-shadow: 0 0 1px rgba(120,120,120,.2), 0 0 2px rgba(120,120,120,.1);
