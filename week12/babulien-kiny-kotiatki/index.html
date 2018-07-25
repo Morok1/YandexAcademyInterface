@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бабуленькины котятки</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <input class="radio" type="radio" name="vision" value="ab" id="ab" />
+    <input class="radio" type="radio" name="vision" value="british" id="british" />
+    <input class="radio" type="radio" name="vision" value="rus" id="rus" />
+    <input class="radio" type="radio" name="vision" value="siam" id="siam" />
+    <div class="wrapper">
+        <header>
+            <h1>Бабуленькины котятки</h1>
+        </header>
+        <main>
+            <aside class="column">
+                <label class="label__btn" for="ab">Абиссинская</label>
+                <label class="label__btn" for="british">Британская</label>
+                <label class="label__btn" for="rus">Русская голубая</label>
+                <label class="label__btn" for="siam">Сиамская</label>
+            </aside>
+            <div class="column templates">
+                <div class="templates__item" data-title="Абиссинская, 5 лет">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/Abissinskaya_1.jpg"
+                        alt="Абиссинская"
+                        data-filter="ab">
+                </div>
+                <div class="templates__item" data-title="Британская, 2 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/british_1.jpg"
+                        alt="Британская"
+                        data-filter="british">
+                </div>
+                <div class="templates__item" data-title="Абиссинская, 3 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/Abissinskaya_3.jpg"
+                        alt="Абиссинская"
+                        data-filter="ab">
+                </div>
+                <div class="templates__item" data-title="Британская, 3 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/british_2.jpg"
+                        alt="Британская"
+                        data-filter="british">
+                </div>
+                <div class="templates__item" data-title="Русская, 5 лет">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/russian_1.jpg"
+                        alt="Русская"
+                        data-filter="rus">
+                </div>
+                <div class="templates__item" data-title="Абиссинская, 5 лет">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/Abissinskaya_2.jpg"
+                        alt="Абиссинская"
+                        data-filter="ab">
+                </div>
+                <div class="templates__item" data-title="Британская, 3 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/british_3.jpg"
+                        alt="Британская"
+                        data-filter="british">
+                </div>
+                <div class="templates__item" data-title="Сиамская, 2 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/siam_2.jpg"
+                        alt="Сиамская"
+                        data-filter="siam">
+                </div>
+                <div class="templates__item" data-title="Сиамская, 2 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/siam_1.jpg"
+                        alt="Сиамская"
+                        data-filter="siam">
+                </div>
+                <div class="templates__item" data-title="Русская, 5 лет">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/russian_4.jpg"
+                        alt="Русская"
+                        data-filter="rus">
+                </div>
+                <div class="templates__item" data-title="Сиамская, 2 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/siam_3.jpg"
+                        alt="Сиамская"
+                        data-filter="siam">
+                </div>
+                <div class="templates__item" data-title="Русская, 3 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/russian_3.jpg"
+                        alt="Русская"
+                        data-filter="rus">
+                </div>
+                <div class="templates__item" data-title="Сиамская, 2 года">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/siam_4.jpg"
+                        alt="Сиамская"
+                        data-filter="siam">
+                </div>
+                <div class="templates__item" data-title="Русская, 5 лет">
+                    <img
+                        class="templates__item_img"
+                        src="./photos/russian_2.jpg"
+                        alt="Русская"
+                        data-filter="rus">
+                </div>
+            </div>
+            <aside class="column">
+                <h2>Рейтинг</h2>
+                <label class="label" for="ratio">
+                    По убыванию
+                </label>
+                <input type="checkbox" name="ratio" id="ratio" />
+                <ul class="ratio">
+                    <li class="ratio__item" style="--default: 4; --ratio: 4;">
+                        <span class="ratio__item_title">Сиамская</span>
+                        <span class="ratio__item_color" data-ratio="4"></span>
+                        <span class="ratio__item_ratio">4</span>
+                    </li>
+                    <li class="ratio__item" style="--default: 2; --ratio: 8;">
+                        <span class="ratio__item_title">Британская</span>
+                        <span class="ratio__item_color" data-ratio="8"></span>
+                        <span class="ratio__item_ratio">8</span>
+                    </li>
+                    <li class="ratio__item" style="--default: 3; --ratio: 10;">
+                        <span class="ratio__item_title">Русская голубая</span>
+                        <span class="ratio__item_color" data-ratio="10"></span>
+                        <span class="ratio__item_ratio">10</span>
+                    </li>
+                    <li class="ratio__item" style="--default: 1; --ratio: 9; --my: --color1;">
+                        <span class="ratio__item_title">Абиссинская</span>
+                        <span class="ratio__item_color" data-ratio="9"></span>
+                        <span class="ratio__item_ratio">9</span>
+                    </li>
+                </ul>
+            </aside>
+        </main>
+        <footer>
+            <div class="footer__item">
+                &copy; ООО Бабуленькины котятки, 2018
+            </div>
+            <address class="footer__item">
+                Наш адрес: улица Котовая, д.5
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
